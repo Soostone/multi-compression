@@ -14,11 +14,11 @@ cabal-version:       >=1.10
 library
   exposed-modules: MultiCompression
   other-extensions: RankNTypes
-  build-depends: base >=4.7 && <4.8
+  build-depends: base >=4.6 && <4.8
                , bytestring >=0.10 && <0.11
                , cereal >=0.4 && <0.5
                , errors >=1.4 && <1.5
-               , lens >=4.8 && <4.9
+               , lens >=4.8 && <4.10
                , streaming-commons >=0.1 && <0.2
                , safecopy >= 0.8 && < 0.9
   hs-source-dirs:      src
