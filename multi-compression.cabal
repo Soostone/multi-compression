@@ -18,7 +18,7 @@ library
                , bytestring >=0.10 && <0.11
                , cereal >=0.4 && <0.6
                , errors >=1.4 && <2.2
-               , lens >=4.8 && <4.15
+               , lens >=4.8 && <5
                , streaming-commons >=0.1 && <0.2
                , safecopy >= 0.8 && < 0.10
   hs-source-dirs:      src
